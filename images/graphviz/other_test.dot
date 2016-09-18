@@ -1,0 +1,37 @@
+digraph G {
+  subgraph cluster_rad {
+    style ="filled";
+    color ="lightgrey";
+    node [style=filled,color=white];
+    label ="RAD";
+    userdesing [label="User Desing"];
+    construction [label="Construction"];
+    userdesing -> construction -> userdesing;
+  }
+  requerplan [label="Requirements Planning"];
+  requerplan -> userdesing;
+  construction -> cutover;
+  node [shape=box,style=filled,color=".7 .3 1.0"];
+  title [label="RAD/Team"];
+  subgraph cluster_stakeholders {
+    style ="filled";
+    color ="lightskyblue";
+    node [style=filled,color=white];
+    label ="Team";
+    prinest [label="Principles Established"];
+    foundation [label="Foundation Established"];
+    inuse [label="In Use"];
+    inplace [label="In Place"];
+    workingwell [label="Working Well"];
+    retired [label="Retired"];
+    }
+    node [shape=box,style=filled,color="darkseagreen3"];
+    p1 [shape=hexagon, style=bold, label=<first line<br/><font point-size="8">second line</font>>, image="images/menworking.png", labelloc=b];
+    prinest -> userdesing;
+    foundation -> userdesing;
+    inuse -> userdesing;
+    inplace -> construction;
+    workingwell -> cutover;
+    retired -> cutover;
+  }
+

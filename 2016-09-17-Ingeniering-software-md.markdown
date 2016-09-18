@@ -16,6 +16,8 @@ categories: jekyll
 - Strong customer communication.
 - Projects that generate many deliverables, are not easily administrable.
 
+_
+====
 
 You be able to get a compressive RAD introduction on [Rapid application development ](http://www.revolvy.com/main/index.php?s=Rapid%20application%20development).
 
@@ -37,6 +39,9 @@ You be able to get a compressive RAD introduction on [Rapid application developm
   }
 )
 
+_
+====
+
 [RAD ](http://www.revolvy.com/main/index.php?s=Rapid%20application%20development) approaches emphasized developing prototypes and prototypes had several advantages:
 
 - Risk Reduction
@@ -53,6 +58,9 @@ RAD is a methodology oriented to the available tools:
   - Docker:
     - On the develop with the rapid integrating of new code.
 
+_
+====
+
 ## RAD on the SEMAT frame.
 
 According to Steve McConnell (McConnell 1996), there are four dimensions of development speed:
@@ -65,6 +73,9 @@ According to Steve McConnell (McConnell 1996), there are four dimensions of deve
 [![RAD projects componets](/images/WhyRAD/mcquaid_fig1.gif "Project Management Issues to Consider")](http://asq.org/pub/sqp/past/vol3_issue3/mcquaid.html)
 
 [![RAD projects componets](/images/WhyRAD/bur_e1_radelements.gif "Essential ingredients of RAD")](https://www.dlsweb.rmit.edu.au/toolbox/ecommerce/bur_respak/bur_e1/html/bur_e1_intro.htm)
+
+_
+====
 
 - **Tools**:
 Software programs that help Systems Analysts and Designers to analyze, document and construct information systems.
